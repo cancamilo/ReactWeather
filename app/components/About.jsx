@@ -2,7 +2,13 @@ var React = require('react');
 
 var About = (props) => {
   return (
-    <h3>About component   !</h3>
+    <div className="row">
+      <div className="column medium-6 large-6 small-centered">
+        <h1>About</h1>
+        <p>React webapp 2016.</p>
+      </div>
+    </div>
+
   );
 };
 
